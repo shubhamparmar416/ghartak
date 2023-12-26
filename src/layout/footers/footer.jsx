@@ -10,7 +10,7 @@ const footer_content = {
       title: "Quick Links",
       links: [
         { title: "Home", link: "#" },
-        { title: "About Us", link: "#" },
+        { title: "About Us", link: "about" },
         { title: "Services", link: "#" },
         { title: "Readymade Solution", link: "#" },
         { title: "Technology We Served", link: "#" },

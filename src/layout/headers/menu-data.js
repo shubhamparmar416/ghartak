@@ -23,7 +23,7 @@ const menu_data = [
     has_dropdown: true,
     has_children: false,
     title: "Services",
-    link: "/portfolio",
+    link: "/",
     sub_menus: [
       { link: "", title: "WEBSITE DEVELOPMENT" },
       { link: "", title: "SOFTWARE SOLUTIONS" },
@@ -47,7 +47,7 @@ const menu_data = [
           { link: "/alerts", title: " School Management " },
           { link: "/badges", title: "College Management" },
           { link: "/brands", title: "Inventory Management" },
-          
+
         ],
       },
       // layout 02
@@ -71,7 +71,7 @@ const menu_data = [
           { link: "/lightbox", title: "Trading software" },
           { link: "/page-titles", title: " Billing software" },
         ],
-      },  
+      },
       // layout 04
       {
         link: "#",
@@ -80,7 +80,7 @@ const menu_data = [
           { link: "/subscribe", title: "Automatic Attendance " },
           { link: "/tab", title: " Logistic app " },
           { link: "/team-elements", title: "HRM" },
-          { link: "/testimonials", title: "CRM" }, 
+          { link: "/testimonials", title: "CRM" },
         ],
       },
     ],
@@ -103,7 +103,7 @@ const menu_data = [
           { link: "/badges", title: "ReactNative" },
           { link: "/badges", title: "Flutter" },
         ],
- 
+
       },
       // layout 02
       {
@@ -128,7 +128,7 @@ const menu_data = [
         ],
       },
       // layout 04
-      
+
       {
         link: "#",
         title: "CMS",
@@ -139,7 +139,7 @@ const menu_data = [
       },
     ],
   },
-  
- 
+
+
 ];
 export default menu_data;
