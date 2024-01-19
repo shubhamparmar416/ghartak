@@ -2,20 +2,18 @@ const menu_data = [
   {
     id: 1,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     has_children: false,
     title: "Home",
     link: "/",
-
   },
   {
     id: 2,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     has_children: true,
     title: "About Us",
     link: "/",
-
   },
   {
     id: 3,
@@ -47,7 +45,6 @@ const menu_data = [
           { link: "/alerts", title: " School Management " },
           { link: "/badges", title: "College Management" },
           { link: "/brands", title: "Inventory Management" },
-
         ],
       },
       // layout 02
@@ -103,7 +100,6 @@ const menu_data = [
           { link: "/badges", title: "ReactNative" },
           { link: "/badges", title: "Flutter" },
         ],
-
       },
       // layout 02
       {
@@ -139,7 +135,5 @@ const menu_data = [
       },
     ],
   },
-
-
 ];
 export default menu_data;
